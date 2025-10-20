@@ -21,11 +21,21 @@ It focuses on backend development, database design, API creation, and applicatio
 - **Version Control:** Git & GitHub  
 - **CI/CD:** GitHub Actions  
 
-## 👥 Team Roles
-- **Backend Developer:** API implementation and business logic.  
-- **Database Administrator:** Database design and optimization.  
-- **DevOps Engineer:** CI/CD and deployment automation.  
-- **QA Engineer:** Testing and quality assurance.
+### Backend Developer
+Responsible for implementing the core logic of the application, including API endpoints, authentication, and business rules. Ensures data integrity and efficient communication between the frontend and the database.
+
+### Database Administrator (DBA)
+Designs and manages the project’s relational database. Ensures data consistency, optimizes queries, and implements indexing and backups for performance and reliability.
+
+### DevOps Engineer
+Handles deployment, monitoring, and scaling of the backend application. Builds CI/CD pipelines and manages infrastructure using Docker and cloud services.
+
+### QA Engineer
+Tests all system functionalities, identifying bugs and ensuring that all project features meet the quality standards before deployment.
+
+### Project Manager
+Coordinates the development process, defines milestones, manages communication within the team, and ensures deadlines are met.
+
 
 ---
 
