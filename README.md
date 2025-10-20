@@ -121,6 +121,19 @@ Prevents abuse and DDoS attacks by limiting the number of API requests a user ca
 Security is critical to protect user data, prevent financial fraud, and maintain trust within the platform. All transactions and data communications will be handled over HTTPS.
 
 
+## ⚙️ CI/CD Pipeline
+Continuous Integration (CI) and Continuous Deployment (CD) are development practices that automate the process of testing, building, and deploying software.  
+This ensures faster updates, fewer errors, and a more stable application.
+
+### Tools Used
+- **GitHub Actions:** Automates testing and deployment workflows.
+- **Docker:** Provides isolated environments for consistent builds.
+- **Celery & Redis:** Support background tasks in the deployment process.
+
+By using CI/CD, developers can ensure that each code change is tested automatically, integrated smoothly, and deployed efficiently to the production environment.
+
+
+
 ### 📁 Repository Structure 
 
 ## 🧑‍💻 Author
