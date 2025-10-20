@@ -83,7 +83,24 @@ Coordinates the development process, defines milestones, manages communication w
 - A **Payment** belongs to one **Booking**.  
 - A **Review** belongs to one **User** and one **Property**.
 
+## 🧩 Feature Breakdown
+### 1. User Management
+Allows users to register, log in, and manage their profiles securely using authentication and authorization mechanisms.
 
+### 2. Property Management
+Hosts can create, update, and delete their property listings, including details like price, description, and location.
+
+### 3. Booking System
+Guests can book available properties, view booking details, and manage check-in/check-out dates.
+
+### 4. Payment Processing
+Secure handling of payments associated with bookings, recording transaction details for each completed payment.
+
+### 5. Review System
+Users can leave reviews and ratings for properties after their stay, enhancing trust and feedback for future guests.
+
+### 6. API Documentation
+APIs are documented using the OpenAPI standard, making integration and testing easy for developers.
 
 ### 📁 Repository Structure 
 
