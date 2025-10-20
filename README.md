@@ -36,8 +36,54 @@ Tests all system functionalities, identifying bugs and ensuring that all project
 ### Project Manager
 Coordinates the development process, defines milestones, manages communication within the team, and ensures deadlines are met.
 
+## 🗄️ Database Design
+### Entities and Attributes
 
----
+#### 1. User
+- id (Primary Key)
+- name
+- email
+- password
+- role (host or guest)
+
+#### 2. Property
+- id (Primary Key)
+- title
+- description
+- location
+- price_per_night
+- owner_id (Foreign Key → User)
+
+#### 3. Booking
+- id (Primary Key)
+- user_id (Foreign Key → User)
+- property_id (Foreign Key → Property)
+- check_in_date
+- check_out_date
+- status
+
+#### 4. Payment
+- id (Primary Key)
+- booking_id (Foreign Key → Booking)
+- amount
+- payment_method
+- payment_status
+
+#### 5. Review
+- id (Primary Key)
+- property_id (Foreign Key → Property)
+- user_id (Foreign Key → User)
+- rating
+- comment
+
+### Relationships
+- A **User** can own multiple **Properties**.  
+- A **User** can make multiple **Bookings**.  
+- A **Booking** belongs to one **Property** and one **User**.  
+- A **Payment** belongs to one **Booking**.  
+- A **Review** belongs to one **User** and one **Property**.
+
+
 
 ### 📁 Repository Structure 
 
