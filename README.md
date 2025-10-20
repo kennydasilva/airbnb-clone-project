@@ -102,6 +102,25 @@ Users can leave reviews and ratings for properties after their stay, enhancing t
 ### 6. API Documentation
 APIs are documented using the OpenAPI standard, making integration and testing easy for developers.
 
+
+
+## 🔐 API Security
+### Authentication
+Implements token-based authentication (e.g., JWT) to verify user identity before accessing restricted endpoints.
+
+### Authorization
+Ensures users can only perform actions within their permissions — for example, only property owners can modify their listings.
+
+### Data Encryption
+Sensitive information like passwords and payment details are encrypted using industry-standard algorithms.
+
+### Rate Limiting
+Prevents abuse and DDoS attacks by limiting the number of API requests a user can make within a specific time frame.
+
+### Importance of Security
+Security is critical to protect user data, prevent financial fraud, and maintain trust within the platform. All transactions and data communications will be handled over HTTPS.
+
+
 ### 📁 Repository Structure 
 
 ## 🧑‍💻 Author
